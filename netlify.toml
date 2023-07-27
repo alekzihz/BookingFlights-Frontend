@@ -1,8 +1,0 @@
-[build]
-  command = "npm run build" # El comando para compilar tu proyecto, asegúrate de que sea el correcto según tu proyecto
-  publish = "dist" # La carpeta que contiene los archivos estáticos después de la compilación
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
